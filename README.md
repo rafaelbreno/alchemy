@@ -17,5 +17,7 @@
 
 2. [Variable](https://github.com/rafaelbreno/alchemy/tree/master/01_variables_and_types/02_variable)
 
-3. [Types](https://github.com/rafaelbreno/alchemy/tree/master/01_variables_and_types/03_basic_types)
+3. [Basic Arithmetic Operations](https://github.com/rafaelbreno/alchemy/tree/master/01_variables_and_types/03_basic_operations)
+
+4. [Basic Types](https://github.com/rafaelbreno/alchemy/tree/master/01_variables_and_types/03_basic_types)
 </details>
