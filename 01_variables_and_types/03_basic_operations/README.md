@@ -1,4 +1,4 @@
-## Basic Types
+## Basic Operations 
 - [Hex Doc](https://hexdocs.pm/elixir/Kernel.html#module-built-in-types)
 - [Elixir Doc](https://elixir-lang.org/getting-started/basic-types.html)
 ### Arithmetic
