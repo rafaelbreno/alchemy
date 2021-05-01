@@ -11,7 +11,11 @@
 
 ## Summary
 <details>
-<summary>_1. Variables and Types_</summary>
+<summary>1. Variables and Types</summary>
 
 1. [Hello World](https://github.com/rafaelbreno/alchemy/tree/master/01_variables_and_types/01_hello)
+
+2. [Variable](https://github.com/rafaelbreno/alchemy/tree/master/01_variables_and_types/02_variable)
+
+3. [Types](https://github.com/rafaelbreno/alchemy/tree/master/01_variables_and_types/03_basic_types)
 </details>
