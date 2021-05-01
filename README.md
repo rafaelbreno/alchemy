@@ -19,5 +19,5 @@
 
 3. [Basic Arithmetic Operations](https://github.com/rafaelbreno/alchemy/tree/master/01_variables_and_types/03_basic_operations)
 
-4. [Basic Types](https://github.com/rafaelbreno/alchemy/tree/master/01_variables_and_types/03_basic_types)
+4. [Basic Types](https://github.com/rafaelbreno/alchemy/tree/master/01_variables_and_types/04_basic_types)
 </details>
