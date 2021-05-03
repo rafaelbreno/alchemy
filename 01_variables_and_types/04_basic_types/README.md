@@ -13,3 +13,12 @@ atom_foo = :foo
 # Will output true
 IO.puts(is_atom(atom_foo))
 ```
+
+### Booleans
+- [Elixir Doc](https://elixir-lang.org/getting-started/basic-types.html#booleans)
+- As mentioned before the values `true` and `false` are built-in atoms
+```elixir
+is_atom(true)
+is_atom(false)
+# Both will return true
+```

@@ -13,3 +13,8 @@ IO.puts("is_atom(true) => #{is_atom(true)}")
 IO.puts("atom_true == true => #{atom_true == true}")
 IO.puts("\n\n")
 
+# Booleans
+IO.puts("------------ Boolean ------------")
+
+is_atom(true)
+is_atom(false)
