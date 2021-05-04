@@ -52,3 +52,57 @@ ten = 10
 ```
 pi = 3.1415
 ```
+
+### List
+- [Elixir Doc](https://elixir-lang.org/getting-started/basic-types.html#linked-lists)
+- [Hex Doc](https://hexdocs.pm/elixir/List.html)
+- Lists stores some amount of values, `>= 0` this means that it can store, none, one or more values
+    - Each value can be different type
+```elixir
+## Defining a list
+list1 = [1, 2, 3, 4]
+## Using inspect
+IO.puts("List 1: #{inspect(list1)}")
+
+# It have head and tail
+## Head is the first element
+## Tail is the rest
+[head_list1 | tail_list1] = list1
+IO.puts("Head 1: #{head_list1}")
+IO.puts("Tail 1: #{inspect(tail_list1)}")
+
+# Operators
+## ++ - Concat
+list2 = [1, 2] ++ [3, 4]
+IO.puts("[1, 2] ++ [3, 4] = #{inspect(list2)}")
+
+list3 = [1, 2] -- [2, 3]
+IO.puts("[1, 2] -- [2, 3] = #{inspect(list3)}")
+```
+### Tuple
+- [Elixir Doc](https://elixir-lang.org/getting-started/basic-types.html#tuples)
+- Contiguously stored data structure, so the values can be accessed/retrieved by its position
+    - Values can be of any type
+```elixir
+
+```
+
+### Map
+- [Hex Doc](https://hexdocs.pm/elixir/Map.html)
+- `Key:Value` data structure
+- The items can be retrieved via:
+    - `Map.fetch()` -> {:ok, :value} or :error
+    - `Map.get()` -> value or nil
+    - `map[key]` provided by [`Access`](https://hexdocs.pm/elixir/Access.html)
+```elixir
+# Opting-in to use Map
+require Map
+map = %{:a => 1, :b => "tres", "key" => :value}
+
+IO.puts("map = #{inspect(map)}")
+IO.puts("map[:a] #{map[:a]}")
+IO.puts("Map.get(map, :b) #{Map.get(map, :b)}")
+fetched = Map.fetch(map, "key")
+IO.puts("Map.fetch(map, \"key\") #{inspect(fetched)}")
+```
+
