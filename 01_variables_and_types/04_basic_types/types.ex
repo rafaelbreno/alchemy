@@ -95,3 +95,11 @@ IO.puts("map[:a] #{map[:a]}")
 IO.puts("Map.get(map, :b) #{Map.get(map, :b)}")
 fetched = Map.fetch(map, "key")
 IO.puts("Map.fetch(map, \"key\") #{inspect(fetched)}")
+
+# Enum
+IO.puts("------------ Enum ------------")
+list1 = [1, 2, 3, 4, 5, 6, 7]
+
+IO.puts(Enum.all?(list1, fn(n) -> n > 2 end))
+IO.puts(Enum.any?(list1, fn(n) -> n > 2 end))
+IO.inspect Enum.chunk_every(list1, 2), label:  "Chunk list"
